@@ -21,7 +21,7 @@ public class Login extends JFrame implements ActionListener{
         label.setBounds(70, 10, 100, 100);
         add(label);
         
-        JLabel text = new JLabel("WELCOME TO ATM");
+        JLabel text = new JLabel("WELCOME TO ATM!");
         text.setFont(new Font("Osward", Font.BOLD, 38));
         text.setBounds(200, 40, 400,40);
         add(text);
