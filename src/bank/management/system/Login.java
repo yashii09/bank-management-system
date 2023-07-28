@@ -12,7 +12,7 @@ public class Login extends JFrame implements ActionListener{
     JPasswordField pinTextField;
     
     Login() {
-        setTitle("AUTOMATED-TELLER-MACHINE");
+        setTitle("AUTOMATED TELLER MACHINE");
         setLayout(null);
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/logo.jpg"));
         Image i2 = i1.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
@@ -21,7 +21,7 @@ public class Login extends JFrame implements ActionListener{
         label.setBounds(70, 10, 100, 100);
         add(label);
         
-        JLabel text = new JLabel("WELCOME TO ATM!");
+        JLabel text = new JLabel("WELCOME TO ATM");
         text.setFont(new Font("Osward", Font.BOLD, 38));
         text.setBounds(200, 40, 400,40);
         add(text);
